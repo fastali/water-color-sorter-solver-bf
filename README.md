@@ -17,6 +17,7 @@ program should perform properly for any configuration which has greater than 2 v
 The online implementations of the script will be deployed in the near future
 
 # Future Plans
+- A numpy version of the script will be implemented.
 - A genetic algorithm can be applied to the script to optimize performance and number of iterations to reach a solution.
 - A function can be added which takes a config file with strings (such as `[empty,blue,red,red]`) and converts it into encoded numbers automatically.
 - A module which takes images as input and outputs the encoded config file could be implemented in the future.
