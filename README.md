@@ -5,12 +5,12 @@ This little script is written in a way to simulate a water color sorter game ses
 
 # How To Use
 
-1) encode the session colors as integers ( e.g. red: 1, green: 2, blue: 3 ect.). The numbers assigned to the colors are irrelevant but empty regions must have a value of -1. 
-2) prepare a [config file](example_config.txt) with the encoded integers for the given session and current configuration of colors.
-3) run the [solver python program](water_sort_puzzle_solver.py). certain parameters such as number of tries and path to the config file will be asked throgh the text interface once the program is running.
-4) program terminates when the solution is found, in which case the solution steps would be printed from the current configuration to solution or the number of tries limitation is reached, in which case "there doesn't seem to be a solution so far" is printed.
+1) Encode the session colors as integers ( e.g. red: 1, green: 2, blue: 3 ect.). The numbers assigned to the colors are irrelevant but empty regions must have a value of -1. 
+2) Prepare a [config file](example_config.txt) with the encoded integers for the given session and current configuration of colors.
+3) Run the [solver python program](water_sort_puzzle_solver.py). certain parameters such as number of tries and path to the config file will be asked throgh the text interface once the program is running.
+4) Program terminates when the solution is found, in which case the solution steps would be printed from the current configuration to solution or the number of tries limitation is reached, in which case "there doesn't seem to be a solution so far" is printed.
 
-program should perform properly for any configuration which has greater than 2 vials and 1 depth.
+Program should perform properly for any configuration which has greater than 2 vials and 1 depth.
 
 # Online Implementation
 
