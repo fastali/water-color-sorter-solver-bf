@@ -236,11 +236,11 @@ def main():
                 continue
             if(is_moveable(a,b,cs)):
                 #print(cs)
-                #sprint([a,b])
+                #print([a,b])
                 #print("moveable")
                 cs=pour(a,b,cs)
                 #print("poured")
-                steps.append([a,b])
+                steps.append([a+1,b+1])
                 #temp2=0
             else:
                 k2+=1
